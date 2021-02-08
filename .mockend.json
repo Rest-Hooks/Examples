@@ -1,0 +1,18 @@
+{
+  "Post": {
+    "title": "string",
+    "body": "string",
+    "createdAt": "date",
+    "author": "User",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "createdAt": "date",
+    "author": "User",
+    "post": "Post"
+  },
+  "User": {
+    "username": "string"
+  }
+}
